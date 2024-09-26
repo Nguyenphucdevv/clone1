@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "backend",
+      "cwd": "backend",
+      "request": "launch",
+      "type": "dart",
+      "program": "bin/server.dart"
+    },
+    {
+      "name": "frontend",
+      "cwd": "frontend",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "chrome", "--web-port", "8081"]
+    }
+  ]
+}
